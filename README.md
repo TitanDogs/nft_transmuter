@@ -11,7 +11,11 @@ NFT_STORAGE_KEY=
 
 3/ run `npm run validator` to start the local validator with the metaplex program clone.
 
-4/ run `anchor run test` to start the test cases.
+4/ run `anchor build`.
+
+5/ run `anchor run test` to start the test cases.
+
+6/ You can run `solana logs --url localhost` for program logs.
 
 # Features:  
 ## Case 0 - Transfer NFT
