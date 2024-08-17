@@ -1,9 +1,8 @@
-
 .anchor
 .DS_Store
+.env
+.yarn
 target
 **/*.rs.bk
 node_modules
 test-ledger
-.yarn
-.env
