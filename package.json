@@ -1,0 +1,28 @@
+{
+    "scripts": {
+        "validator": "solana-test-validator -r --bpf-program metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s clones/metaplex.so",
+        "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
+        "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
+    },
+    "dependencies": {
+        "@coral-xyz/anchor": "^0.28.0",
+        "@metaplex-foundation/js": "^0.20.1",
+        "@shadow-drive/sdk": "^5.0.0",
+        "@solana/spl-token": "^0.3.8",
+        "dotenv": "^16.4.2",
+        "nft.storage": "^7.1.1",
+        "node-images": "^2.2.1",
+        "sharp": "^0.32.6"
+    },
+    "devDependencies": {
+        "@types/bn.js": "^5.1.0",
+        "@types/chai": "^4.3.0",
+        "@types/mocha": "^9.0.0",
+        "@types/node": "^20.11.17",
+        "chai": "^4.3.4",
+        "mocha": "^9.0.3",
+        "prettier": "^2.6.2",
+        "ts-mocha": "^10.0.0",
+        "typescript": "^4.3.5"
+    }
+}

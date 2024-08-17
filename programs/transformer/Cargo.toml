@@ -1,0 +1,27 @@
+[package]
+name = "transmuter"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "transmuter"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = { version = "0.30.0", features = ["init-if-needed"] }
+anchor-spl = "0.30.0"
+mpl-token-metadata = "4.1.1"
+multimap = "0.10.0"
+serde = "1.0.190"
+serde_json = "1.0.108"
+solana-program = "=1.18.14"
+spl-token = "4.0.0"
+url = "2.5.0"
