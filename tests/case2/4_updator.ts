@@ -187,7 +187,7 @@ it("should have updated", async () => {
       const nftUrl = new URL(metadata.uri);
       const nftBaseUri = nftUrl.origin + nftUrl.pathname;
       return transmuterOutputs.some(
-        (output) => output.mint?.uri === nftBaseUri
+        (output) => output.uri === nftBaseUri
       );
     });
 
