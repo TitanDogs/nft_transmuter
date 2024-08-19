@@ -29,8 +29,6 @@ require("dotenv").config({ path: ".env" });
 export const [creator, user] = [
   new Keypair(),
   new Keypair(),
-  new Keypair(),
-  new Keypair(),
 ];
 console.log(`creator: ${creator.publicKey}`);
 console.log(`user: ${user.publicKey}`);
